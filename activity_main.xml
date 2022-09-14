@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    >
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="130dp"
+       android:src="@drawable/bgheader"
+       android:id="@+id/bg"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/bgheader"
+        android:id="@+id/bg2"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="-12dp"
+        android:src="@drawable/capture" />
+
+
+    <!--<com.airbnb.lottie.LottieAnimationView-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:id="@+id/lottie"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="150dp"-->
+        <!--app:lottie_fileName="heart.json"/>-->
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/bg"
+        android:layout_centerInParent="true"
+        android:src="@drawable/bglogo" />
+
+</RelativeLayout>

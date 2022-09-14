@@ -1,0 +1,2652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:src="@drawable/bgheader"/>
+
+
+
+
+        -
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            -
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                -
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img1"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp">
+
+                    <ImageView
+                        android:id="@+id/abcrunch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="1dp"
+                        android:text="Abdominal Crunch"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+
+                -
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img2"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/armcircle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Arm Circle"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+
+                -
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img3"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img1"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp">
+
+                    <ImageView
+                        android:id="@+id/armrasies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="1dp"
+                        android:text="Arm Rasies"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+
+                -
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img4"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/backwardlung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Backward Lung"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img5"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp">
+
+                    <ImageView
+                        android:id="@+id/box_push_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="1dp"
+                        android:text="Box Push Up"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+
+                -
+                -
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img6"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img4"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/backwardlungfk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Left"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img7"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img5"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp">
+
+                    <ImageView
+                        android:id="@+id/bridge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginRight="1dp"
+                        android:text="Bridge"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                -
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img8"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img6"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/backwardlungfkr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img9"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img7"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/bulgarian_split_squat_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Bulgarian Split Squat Left"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img10"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img8"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/bulgarian_split_squat_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Bulgarians plit Squat Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img11"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img9"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/burpee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Burpee"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img12"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img10"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/butt_bridge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Butt Bridge"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img13"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img11"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/chest_press_pulse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Chest Press Pulse"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img14"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img12"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/cobras"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Cobras"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img15"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img13"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/cross_arm_crunch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Cross Arm Crunch"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img16"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img14"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/curtsy_lunge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Curtsy Lunge"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img17"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img15"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/decline_push_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Decline push up"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img18"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img16"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/diagonal_plank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Diagonal Plank"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img19"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img17"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/donkey_kick_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Donkey kick Left"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img20"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img18"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/donkey_kick_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Donkey kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img21"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img19"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/fire_hydrant_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Fire Hydrant Left"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img22"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img20"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/fire_hydrant_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Fire Hydrant Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img23"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img21"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/floor_triceps_dips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Floor Triceps Dips"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img24"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img22"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/froggy_glutes_lifts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Froggy Glutes Lifts  "
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img25"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img23"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/glute_kick_back_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Glute Kick Back Left"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img26"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img24"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/glute_kick_back_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Glute Kick Back Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img27"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img25"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+                        android:id="@+id/heel_touch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Heel Touch"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img28"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img26"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img29"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img27"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img30"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img28"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img31"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img29"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img32"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img30"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img33"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img31"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img34"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img32"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img35"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img32"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img36"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img34"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img37"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img35"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img38"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img36"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img39"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img37"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img40"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img38"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img41"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img39"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img42"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img40"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img43"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img41"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img44"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img42"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img45"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img43"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img46"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img44"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img47"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img45"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img48"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img46"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img49"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img47"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img50"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img48"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img51"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img49"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img52"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img50"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img53"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img51"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img54"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img52"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img55"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img53"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img56"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img54"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img57"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img55"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img58"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img56"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img59"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img57"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img60"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img58"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img61"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img59"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img62"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img60"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img63"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img61"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img64"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img62"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img65"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img63"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img66"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img64"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img67"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img65"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img68"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img66"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img69"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img67"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img70"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img68"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img71"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img69"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img72"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img70"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img73"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img71"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img74"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img72"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img75"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img73"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img76"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img74"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img77"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img75"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img78"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img76"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img79"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img75"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img80"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img78"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img81"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img79"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img82"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img80"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img83"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img81"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img84"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img82"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img85"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img83"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img86"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img84"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img87"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img85"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img88"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img86"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img89"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img87"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img90"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img88"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img91"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img89"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img92"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img90"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img93"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img91"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img94"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img92"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img95"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img93"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img96"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img94"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img97"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img95"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img98"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img96"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/img99"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@id/img97"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="40dp">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/armcircleicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="52dp"
+                        android:text="Front Kick Right"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</LinearLayout>
